@@ -1,14 +1,45 @@
 body {
   background-color: #F7F1E6;
   color: #302725
-  font-family: Gergia;
-  text-align: center;
+  font-family: Georgia, serif;
+  test-align: center;
+  margin: 30px;
 }
 
 h1 {
   color: #651F30;
+  font-size: 42px;
 }
 
 h2 {
   color: #651F30;
+  font-size: 26px;
+  margin-top: 40px;
 }
+
+p {
+  font-size: 17px;
+  line-height: 1.6px
+}
+
+a {
+  color:#651F30;
+}
+
+a:hover {
+  color: #A37B46
+}
+
+hr {
+  border: 1px solid #C7A97C;
+  margin-top: 35px;
+  margin-bottom 35px;
+}
+
+img {
+  width: 250px;
+  margin: 10px;
+  border: 3px solid #C7A97C;
+  padding: 5px;
+}
+  
