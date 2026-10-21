@@ -79,3 +79,90 @@ a: hover{
   border-radius: 15px;
   margin: 10px;
 } 
+
+/*FIX THE WELCOME BANNER*/
+.welcome{
+  background-color: #F5E7DF;
+  text-align: center;
+  padding: 35px;
+  border-radius: 25px;
+}
+
+.welcome h1{
+  background-color: transparent;
+  padding: 0;
+  margin: 10px;
+}
+
+.welcome p{
+  font-size: 20px;
+}
+
+/*FIX TE TEAM LAYOUT8*/
+
+.team{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+/*MAKE EACH MEMBER A CARD*/
+.card{
+  background-color: #F5E7DF;
+  padding: 30px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+/*CREATE THE CIRCULAR INITIAL */
+.cirl{
+  background-color: #FFF9F3;
+  color: #783C58;
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
+  border-radius: 50%;
+  font-size: 25px;
+  margin: auto; 
+}
+
+/*NAME SYSTLES*/
+.card h3{
+  color: #783C58;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+/*BOTTONS*/
+.card a{
+  background-color: #783c58;
+  color: white;
+  padding: 12px 25px
+  border-radisu: 25px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.card a:hover {
+  background-color: #A76D87;
+}
+
+/*ORGANIZING GALLERY*/
+.gallery{
+  text-align: center;
+  margin-top: 25px;
+}
+
+.gallery img{
+  width: 250px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+/*SMALL SCREEN LAYOUT*/
+@media (max-width: 600px){
+  .team{
+    grid-template-columns: 1fr;
+  }
+}
