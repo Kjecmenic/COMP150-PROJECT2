@@ -7,13 +7,13 @@ body{
 }
 
 .welcome{
-  background-color: #F5E7DF
+  background-color: #F5E7DF;
   padding: 35px;
   border-radius: 25px;
 }
 
 h1{
-  color: #783C58
+  color: #783C58;
   font-size: 30px;
   margin-top: 35px;
 }
@@ -45,7 +45,7 @@ p{
   width: 70px;
   height: 70px;
   min-width: 70px;
-  aspect-ratio: 1 / 1;
+  max-width: 70px;
   border-radius: 50%;
   background-color: #FFF8F3;
   color: #5B4B55;
@@ -54,7 +54,7 @@ p{
   justify-content: center;
   margin: 0 auto 15px;
   font-size: 24px;
-  flex-shrink: 0 0 70px;
+  box-sizing: border-box;
 }
 
 a{
@@ -72,6 +72,6 @@ a:hover{
 
 .gallery img{
   width: 250px;
-  border-radisu: 15px;
+  border-radius: 15px;
   margin: 10px;
 } 
