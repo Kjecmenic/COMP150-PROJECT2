@@ -45,14 +45,16 @@ p{
   width: 70px;
   height: 70px;
   min-width: 70px;
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
   background-color: #FFF8F3;
   color: #5B4B55;
+  display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 15px;
   font-size: 24px;
-  flex-shrink: 0;
+  flex-shrink: 0 0 70px;
 }
 
 a{
