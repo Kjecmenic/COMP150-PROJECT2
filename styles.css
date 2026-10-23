@@ -42,14 +42,17 @@ p{
 }
 
 .circle{
-  background-color: #FFF9F3;
-  color: #783C58
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
+  width: 70px;
+  height: 70px;
+  min-width: 70px;
   border-radius: 50%;
-  font-size: 25px;
-  margin: auto;
+  background-color: #FFF8F3;
+  color: #5B4B55;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  font-size: 24px;
+  flex-shrink: 0;
 }
 
 a{
